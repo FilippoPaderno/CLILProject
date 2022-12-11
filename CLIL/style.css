@@ -30,6 +30,7 @@ nav{
 .nav-links{
     display: flex;
     justify-content: space-around;
+    text-decoration: none;
     width: 20%;
 }
 
@@ -49,13 +50,14 @@ nav{
 .hero{
     display: flex;
     padding-top: 30px;
-    height: 100vh;
+    height: auto;
     padding-bottom: 0;
     text-align: center;
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
     margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .block-1{
@@ -125,4 +127,117 @@ nav{
     border: 0;
     vertical-align: middle;
     display: inline-block;
+}
+
+.billboard{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 10px 10px 20px;
+}
+
+.bill-image img{
+    overflow: hidden;
+    width: 700px;
+    height: 500px;
+    border-radius: 9px;
+    object-fit: fill;
+}
+
+.billboard-text{
+    display: flex;
+    width: 40%;
+    padding: 10px 10px 10px 30px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.billboard-text h2{
+    line-height: 40px;
+    font-family: 'Marcellus', serif;
+    color: black;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.billboard-text h3{
+    line-height: 40px;
+    font-family: 'Secular One', sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 100;
+    transform: translateX(70px);
+}
+
+.artist{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.artist h1{
+    font-family: 'Marcellus', serif;
+    font-size: 4rem;
+    color: black;
+    line-height: 100%;
+}
+
+.bill-global{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 90px;
+    margin-top: 150px;
+}
+
+.global-img img{
+    overflow: hidden;
+    width: 700px;
+    height: 500px;
+    border-radius: 9px;
+    object-fit: fill;
+}
+
+.global-text{
+    display: flex;
+    width: 40%;
+    padding: 10px 50px 10px 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.global-text h2{
+    line-height: 40px;
+    font-family: 'Secular One', sans-serif;
+    color: rgb(189, 38, 189);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.global-text p{
+    padding-top: 15px;
+    font-family: 'Secular One', sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    line-height: 20px;
+}
+
+.global-text button{
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    color: black;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 9px 9px;
+}
+
+.global-text a{
+    text-decoration: none;
+    cursor: pointer;
 }
