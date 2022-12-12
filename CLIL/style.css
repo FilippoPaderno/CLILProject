@@ -22,6 +22,7 @@ nav{
 .date{
     font-family: 'Secular One', sans-serif;
 }
+
 .logo img{
     width: 200px;
     height: 50px;
@@ -41,6 +42,7 @@ nav{
 
 .nav-links li{
     list-style: none;
+    text-decoration: none;
 }
 
 .nav-links li a{
@@ -56,15 +58,17 @@ nav{
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    background-image: linear-gradient(180deg,rgba(0,0,0,.75),hsla(0,0%,100%,0) 40%), url(img/lollapalooza.jpg);
+    background-size: cover;
+    margin-bottom: 50px;
 }
 
 .block-1{
-    margin-bottom: 16px;
+    margin-bottom: 400px;
     padding: 24px 24px 0;
     background-color: transparent;
     text-align: center;
+    margin-top: 200px;
 }
 .home-1{
     margin-bottom: 0;
